@@ -16,6 +16,7 @@ const store = useStore();
     <TheModal v-if="store.gameOver"></TheModal>
   </Teleport>
   <component :is="components[store.currentStep]"></component>
+  <!-- <TheGame></TheGame> -->
 </template>
 
 <style>
