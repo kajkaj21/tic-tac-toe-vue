@@ -89,7 +89,7 @@ const checkWinner = () => {
     strikethroughHeight.value = "100%";
     strikethroughWidth.value = "1rem";
     strikethroughTop.value = "0";
-    strikethroughLeft.value = "17%";
+    strikethroughLeft.value = "19%";
     strikethroughVisibility.value = "visible";
     setTimeout(() => {
       store.gameOver = true;
@@ -129,7 +129,7 @@ const checkWinner = () => {
     strikethroughHeight.value = "100%";
     strikethroughWidth.value = "1rem";
     strikethroughTop.value = "0";
-    strikethroughLeft.value = "83%";
+    strikethroughLeft.value = "80%";
     strikethroughVisibility.value = "visible";
     setTimeout(() => {
       store.gameOver = true;
